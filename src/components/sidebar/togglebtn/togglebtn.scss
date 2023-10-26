@@ -1,0 +1,16 @@
+.button-top{
+    background-color: transparent;
+    border: none;
+    position: fixed;
+    top:3px;
+    cursor: pointer;
+    color: #000000;
+    padding: 35px;
+    z-index: 3;
+    svg{
+        line{
+            stroke:black;
+            stroke-width:5
+        }
+    }
+}

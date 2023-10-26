@@ -1,0 +1,46 @@
+
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+body{
+    background-color: #0c0c1d;
+    color: lightgray;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+section{
+    height:100vh;
+    scroll-snap-align:center;
+    // position: relative;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.changeCursor{
+    position: fixed;
+    top:20px;
+    right: 40px;
+    padding: 20px;
+    background: transparent;
+    color: white;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s all ease;
+    z-index: 999;
+    &:hover{
+        background: white;
+        color: black;
+        scale: 1.1;
+    }
+}
